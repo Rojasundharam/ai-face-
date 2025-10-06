@@ -1,0 +1,50 @@
+{
+  "name": "emotion-detection-nextjs",
+  "version": "1.0.0",
+  "description": "AI-powered emotion detection and wellness tracking with Next.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "next lint",
+    "init-db": "node lib/db/initDatabase.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.12.2",
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^12.4.1",
+    "chart.js": "^4.5.0",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "face-api.js": "^0.22.2",
+    "framer-motion": "^12.23.22",
+    "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "localforage": "^1.10.0",
+    "multer": "^2.0.2",
+    "next": "^14.2.33",
+    "particles.js": "^2.0.0",
+    "postcss": "^8.5.6",
+    "react": "^18.3.1",
+    "react-calendar": "^6.0.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.6.0",
+    "tailwindcss": "^4.1.14",
+    "uuid": "^13.0.0",
+    "winston": "^3.18.3",
+    "workbox-window": "^7.3.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.33"
+  }
+}

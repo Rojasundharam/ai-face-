@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/admin/Downloads/ai-face-/backend/**)",
+      "Read(//c/Users/admin/Downloads/ai-face-/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
