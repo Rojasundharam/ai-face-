@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { format } from 'date-fns';
-import { useEmotion } from '../context/EmotionContext';
+import { useEmotion } from './context/EmotionContext';
 import { getEmotionColor } from '../utils/faceDetection';
 
 const EmotionHistory = ({ limit = 10 }) => {

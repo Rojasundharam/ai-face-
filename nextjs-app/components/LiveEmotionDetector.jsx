@@ -1,8 +1,8 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import toast from 'react-hot-toast';
-import { useEmotion } from '../context/EmotionContext';
-import { useWebSocket } from '../context/WebSocketContext';
+import { useEmotion } from './context/EmotionContext';
+import { useWebSocket } from './context/WebSocketContext';
 import {
   loadFaceApiModels,
   detectEmotions,

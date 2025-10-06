@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { api } from '../utils/api';
-import { useEmotion } from '../context/EmotionContext';
+import { useEmotion } from './context/EmotionContext';
 
 const RealTimeInsights = () => {
   const { currentEmotion } = useEmotion();

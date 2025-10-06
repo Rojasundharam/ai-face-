@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { api } from '../utils/api';
-import { useEmotion } from '../context/EmotionContext';
+import { useEmotion } from './context/EmotionContext';
 
 const EmotionCoach = () => {
   const { currentEmotion } = useEmotion();
